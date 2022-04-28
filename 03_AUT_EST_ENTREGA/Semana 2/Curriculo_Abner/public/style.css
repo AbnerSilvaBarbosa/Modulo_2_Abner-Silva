@@ -4,6 +4,26 @@ body {
     overflow: hidden;
 }
 
+/*Lado esquerdo e direito*/
+.leftside {
+    height: 900px;
+    text-align: center;
+    background-image: url("./teste.png");
+    background-position: start;
+
+
+
+}
+
+.rigthside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./semBlur.jpg");
+    
+}
+
+/*-------------------------------------------------------------------------------*/
 
 img {
     
@@ -42,23 +62,6 @@ button{
     margin-top: 3%;
 }
 
-.leftside {
-    height: 900px;
-    text-align: center;
-    background-image: url("./teste.png");
-    background-position: start;
-
-
-
-}
-
-.rigthside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("./semBlur.jpg");
-    
-}
 
 h2 {
     margin-top: 2em;
@@ -70,6 +73,13 @@ ul {
 }
 
 
+/*Area das tecnologias*/
+
+.social {
+    margin-bottom: 5em;
+}
+
+
 .social img {
     width: 30px;
     height: 30px;
@@ -78,6 +88,4 @@ ul {
 
 }
 
-.social {
-    margin-bottom: 5em;
-}
+/*-------------------------------------------------------------------------------*/
