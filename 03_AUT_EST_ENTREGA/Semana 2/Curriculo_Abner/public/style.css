@@ -1,12 +1,13 @@
 
 body {
 
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 
 /*Lado esquerdo e direito*/
 .leftside {
-    height: 900px;
+    height: 753px;
     text-align: center;
     background-image: url("./teste.png");
     background-position: start;
