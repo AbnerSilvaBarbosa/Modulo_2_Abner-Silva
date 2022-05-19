@@ -138,6 +138,7 @@ function cedulas(){
 
 function ordenação(){
 
+    let array = []
     let input = $("#array").val()
     let foco = $("#valor-foco").val()
     
@@ -145,25 +146,25 @@ function ordenação(){
 
     input = input.split(",")
 
-    // input.map((val)=>{
-    //     array.push(Number(val))
-    // })
+    input.map((val)=>{
+        array.push(Number(val))
+    })
 
 
-    input.sort()
+    array = array.sort()
 
 
 
 
 
-    console.log(input)
+    console.log(array)
     let focoResult =input.indexOf(foco) + 1
 
     if(focoResult == 0){
         focoResult = "Esse valor não existe na sua sequência"
     }
 
-    let p = $("#resultado3").html(`Ordenados de forma crescente ${input} <br> O numero de ${foco} está na ${focoResult} º`)
+    let p = $("#resultado3").html(`Ordenados de forma crescente ${array} <br> O numero de ${foco} está na ${focoResult} º`)
 
     
     
